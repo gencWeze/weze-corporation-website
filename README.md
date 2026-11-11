@@ -1,8 +1,8 @@
 # 🌐 WeZe Corporation: Multi-Page Website
 
-> A multi-page website for **WeZe Corporation**, a *fictional* tech-and-education startup that connects idea owners, academic experts and investors. I built it as a web programming assignment in my 3rd semester at Universitas Diponegoro (late 2021) [[CEK: nama mata kuliah]]. It has a landing page, a discussion forum, a monthly report page, project-leader profile pages and a PHP/MySQL login prototype.
+> A multi-page website for **WeZe Corporation**, a *fictional* tech-and-education startup that connects idea owners, academic experts and investors. I built it as a web programming assignment in my 3rd semester at Universitas Diponegoro (late 2021) on Sistem Informasi Manajemen course. It has a landing page, a discussion forum, a monthly report page, project-leader profile pages and a PHP/MySQL login prototype.
 
-🔗 **Live demo:** [[ISI setelah GitHub Pages aktif: https://gencweze.github.io/weze-corporation-website/]]
+🔗 **Live demo:** https://gencweze.github.io/weze-corporation-website/
 
 ![Landing page](screenshots/landing.jpg)
 
@@ -94,9 +94,9 @@ The original SQL exports contained real emails and plain-text passwords, so they
 ## 🧱 Credits
 
 - Partner pages and `vendor/php-email-form` are based on a free **BootstrapMade** template [[CEK: nama template, mis. "Personal"]], customized with WeZe content and colors.
-- The landing-page layout follows a web-design tutorial [[CEK: sumber tutorial]], restyled into the WeZe brand.
+- The landing-page layout follows a web-design tutorial, restyled into the WeZe brand.
 - Project images are **Freepik** previews (watermarked), used for a non-commercial student assignment.
-- Partner profile photos are of friends, used with their permission [[CEK: pastikan sudah izin]].
+- Partner profile photos are of friends, used with their permission.
 - Icons: Font Awesome, Boxicons, IcoFont, Remix Icon. Fonts: Google Fonts.
 
 ## 💡 What I Learned
