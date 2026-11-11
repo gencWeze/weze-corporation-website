@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="shorcut icon" href="gambar/WeZe logo.png">
+    <link rel="stylesheet" href="css/stylediscuss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="forum.html">Forums</a></li>
+                    <li class="nav-item"><a href="detail.html">Detail</a></li>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">My Forum</div>
+        </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    <div class="container">
+
+        <!--Navigation title1-->
+        <div class="navigate">
+            <span><a href="https://repository.unri.ac.id/xmlui/bitstream/handle/123456789/2559/artikel%20mardhika%20matematika%2015%2001%202013.pdf?sequence=1&isAllowed=y">Description Title</a></span>
+        </div>
+        <!--Topic Section-->
+        <div class="topic-container">
+            <!--Original thread-->
+            <div class="head">
+                <div class="authors">Author</div>
+                <div class="content">Topic: random topic (Read 1325 Times)</div>
+            </div>
+
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="">Username</a></div>
+                    <img src="https://cdn.pixabay.com/photo/2015/11/06/13/27/ninja-1027877_960_720.jpg" alt="">
+                    <div>Posts: <u>45</u></div>
+                </div>
+                <div class="content">
+                    Just a random content of a random topic.
+                    <br>To see how it looks like.
+                    <br><br>
+                    Nothing more and nothing less.
+                    <br>
+                    <hr>
+                    Regards username
+                    <br>
+                    <div class="comment">
+                        <button onclick="showComment()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--Comment Area1-->
+         <div class="comment-area hide" id="comment-area">
+            <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+        <!--Reply Area1-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+        
+        <!--Navigation title2-->
+        <div class="navigate">
+            <span><a href="https://repository.unri.ac.id/xmlui/bitstream/handle/123456789/2559/artikel%20mardhika%20matematika%2015%2001%202013.pdf?sequence=1&isAllowed=y">Description Title</a></span>
+        </div>
+        <!--Topic Section2-->
+        <div class="topic-container">
+            <!--Original thread2-->
+            <div class="head">
+                <div class="authors">Author</div>
+                <div class="content">Topic: random topic (Read 1325 Times)</div>
+            </div>
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="">Username</a></div>
+                    <img src="https://cdn.pixabay.com/photo/2015/11/06/13/27/ninja-1027877_960_720.jpg" alt="">
+                    <div>Posts: <u>45</u></div>
+                </div>
+                <div class="content">
+                    Just a random content of a random topic.
+                    <br>To see how it looks like.
+                    <br><br>
+                    Nothing more and nothing less.
+                    <br>
+                    <hr>
+                    Regards username
+                    <br>
+                    <div class="comment">
+                        <button onclick="showComment()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Comment Area2-->
+        <div class="comment-area hide" id="comment-area">
+            <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+        <!--Reply Area2-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+        <!--Topic Section2.1-->
+        <div class="topic-container">
+            <!--Original thread2.1-->
+            <div class="head">
+                <div class="authors">Author</div>
+                <div class="content">Topic: random topic (Read 1325 Times)</div>
+            </div>
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="">Username</a></div>
+                    <img src="https://cdn.pixabay.com/photo/2015/11/06/13/27/ninja-1027877_960_720.jpg" alt="">
+                    <div>Posts: <u>45</u></div>
+                </div>
+                <div class="content">
+                    Just a random content of a random topic.
+                    <br>To see how it looks like.
+                    <br><br>
+                    Nothing more and nothing less.
+                    <br>
+                    <hr>
+                    Regards username
+                    <br>
+                    <div class="comment">
+                        <button onclick="showComment()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Comment Area2.1-->
+        <div class="comment-area hide" id="comment-area">
+            <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+        <!--Reply Area2.1-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+
+ <!--Navigation title3-->
+ <div class="navigate">
+    <span><a href="https://repository.unri.ac.id/xmlui/bitstream/handle/123456789/2559/artikel%20mardhika%20matematika%2015%2001%202013.pdf?sequence=1&isAllowed=y">Description Title</a></span>
+</div>
+<!--Topic Section-->
+<div class="topic-container">
+    <!--Original thread-->
+    <div class="head">
+        <div class="authors">Author</div>
+        <div class="content">Topic: random topic (Read 1325 Times)</div>
+    </div>
+    <div class="body">
+        <div class="authors">
+            <div class="username"><a href="">Username</a></div>
+            <img src="https://cdn.pixabay.com/photo/2015/11/06/13/27/ninja-1027877_960_720.jpg" alt="">
+            <div>Posts: <u>45</u></div>
+        </div>
+        <div class="content">
+            Just a random content of a random topic.
+            <br>To see how it looks like.
+            <br><br>
+            Nothing more and nothing less.
+            <br>
+            <hr>
+            Regards username
+            <br>
+            <div class="comment">
+                <button onclick="showComment()">Reply</button>
+            </div>
+        </div>
+    </div>
+</div>
+ <!--Comment Area2-->
+ <div class="comment-area hide" id="comment-area">
+    <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+    <input type="submit" value="submit">
+</div>
+<!--Reply Area2-->
+<div class="comment-area hide" id="reply-area">
+    <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+    <input type="submit" value="submit">
+</div>
+
+    </div>
+    <footer>
+        <span>&copy;  Ageng Windarto Jati | All Rights Reserved</span>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
