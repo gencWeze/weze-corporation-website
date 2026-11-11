@@ -93,7 +93,7 @@ The original SQL exports contained real emails and plain-text passwords, so they
 
 ## 🧱 Credits
 
-- Partner pages and `vendor/php-email-form` are based on a free **BootstrapMade** template [[CEK: nama template, mis. "Personal"]], customized with WeZe content and colors.
+- Partner pages and `vendor/php-email-form` are based on a free **BootstrapMade** template, customized with WeZe content and colors.
 - The landing-page layout follows a web-design tutorial, restyled into the WeZe brand.
 - Project images are **Freepik** previews (watermarked), used for a non-commercial student assignment.
 - Partner profile photos are of friends, used with their permission.
